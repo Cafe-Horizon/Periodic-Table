@@ -1,2 +1,5 @@
 # Periodic-Table
-元素周期表 (月刊ほらいずん5月号用)
+
+![Periodic Table](periodic-table.svg)
+
+タングステン(W) と くろむちゃん(Cr) が同じ族であることを説明するために作られた元素周期表
