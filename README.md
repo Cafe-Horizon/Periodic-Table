@@ -4,4 +4,4 @@
 
 ![Periodic Table](periodic-table.svg)
 
-AArch64アセンブリコードで、動的に元素周期表の svg ファイルを作成しています。
+AArch64アセンブリコードで、自動的に元素周期表の svg ファイルを作成しています。
