@@ -70,6 +70,8 @@ label_period_y:     .ascii "\" y=\"\0"
 label_period_end:   .ascii "\" text-anchor=\"middle\" fill=\"#666\" font-size=\"14\" font-weight=\"bold\">\0"
 label_period_close: .ascii "</text>\n\0"
 
+svg_bg: .ascii "    <rect x=\"4\" y=\"4\" width=\"1142\" height=\"812\" rx=\"16\" fill=\"white\" />\n\0"
+
 svg_footer: .ascii "\n</svg>\n\0"
 
 range_lan: .ascii "57-71\0"
@@ -121,6 +123,10 @@ color_act: .ascii "#ff99cc\0"
 _start:
     // Print Header
     ldr x0, =svg_header
+    bl print_string
+
+    // Print white rounded background
+    ldr x0, =svg_bg
     bl print_string
 
     // --- Render Group Labels (1-18) ---
