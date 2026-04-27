@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1150 820" width="1150" height="820" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;">
+    <rect x="4" y="4" width="1142" height="812" rx="16" fill="white" />
     <text x="68" y="30" text-anchor="middle" fill="#666" font-size="14" font-weight="bold">1</text>
     <text x="128" y="30" text-anchor="middle" fill="#666" font-size="14" font-weight="bold">2</text>
     <text x="188" y="30" text-anchor="middle" fill="#666" font-size="14" font-weight="bold">3</text>
